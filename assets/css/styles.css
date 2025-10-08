@@ -177,9 +177,15 @@ header {
     align-items: center;
 }
 
-.about-text h2 {
-    margin-bottom: 20px;
-    color: var(--dark-purple);
+.about-text {
+    h2 {
+        margin-bottom: 20px;
+        color: var(--dark-purple);
+    }
+
+    span {
+        font-weight: bold !important;
+    }
 }
 
 .about-image {
