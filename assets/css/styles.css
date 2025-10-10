@@ -60,12 +60,21 @@ header {
 }
 
 .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap: nowrap;
+    gap: 5px;
     color: var(--white);
     text-decoration: none;
     padding: 10px 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 30px;
     transition: all 0.3s ease;
+
+    img {
+        width: 20px;
+    }
 }
 
 .social-links a:hover {
